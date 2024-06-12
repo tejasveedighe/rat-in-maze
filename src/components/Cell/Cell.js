@@ -8,7 +8,8 @@ export default function Cell(props) {
         styles.cell,
         props.selected ? styles.selected : "",
         props.first ? styles.first : "",
-        props.end ? styles.end : ""
+        props.end ? styles.end : "",
+        props.isPath ? styles.path : ""
       )}
       onClick={!props.first && !props.end ? props.onCellClick : () => {}}
     ></div>

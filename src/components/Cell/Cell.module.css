@@ -6,8 +6,12 @@
   background-color: white;
 }
 
+.path {
+  background-color: aqua;
+}
+
 .selected {
-  background-color: rgb(42, 142, 249);
+  background-color: black;
 }
 
 .first {
