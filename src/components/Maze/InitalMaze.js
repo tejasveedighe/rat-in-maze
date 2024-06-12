@@ -7,7 +7,6 @@ export default function InitialMaze({
   maze,
   handleInputChange,
   handleCellClick,
-  findPath,
 }) {
   return (
     <div className={styles.mazeContainer}>
@@ -41,9 +40,6 @@ export default function InitialMaze({
           ))
         )}
       </div>
-      <button className="btn btn-primary" onClick={findPath}>
-        Find Paths
-      </button>
     </div>
   );
 }
